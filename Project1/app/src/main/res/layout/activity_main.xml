@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" android:orientation="vertical">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="136dp">
+        <ImageView
+                android:id="@+id/mapleImage1"
+                android:src="@drawable/maple1"
+                android:layout_width="136dp"
+                android:layout_height="136dp"/>
+
+        <ImageView
+                android:src="@drawable/maple2"
+                android:layout_width="136dp"
+                android:layout_height="136dp"/>
+
+        <ImageView
+                android:src="@drawable/maple3"
+                android:layout_width="136dp"
+                android:layout_height="136dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="136dp">
+        <ImageView
+                android:src="@drawable/maple4"
+                android:layout_width="136dp"
+                android:layout_height="136dp"/>
+
+        <ImageView
+                android:src="@drawable/maple5"
+                android:layout_width="136dp"
+                android:layout_height="136dp"/>
+
+        <ImageView
+                android:src="@drawable/maple6"
+                android:layout_width="136dp"
+                android:layout_height="136dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="136dp">
+        <ImageView
+                android:src="@drawable/maple7"
+                android:layout_width="136dp"
+                android:layout_height="136dp"/>
+<!--
+        <ImageView
+                android:src="@drawable/maple8"
+                android:layout_width="136dp"
+                android:layout_height="136dp"/>
+
+        <ImageView
+                android:src="@drawable/maple9"
+                android:layout_width="136dp"
+                android:layout_height="136dp"/>
+-->
+    </LinearLayout>
+</LinearLayout>
