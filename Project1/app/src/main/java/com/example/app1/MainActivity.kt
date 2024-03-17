@@ -61,32 +61,19 @@ class MainActivity : ComponentActivity() {
             val intent = Intent(this, MapleActivity7::class.java)
             startActivity(intent)
         }
+        val image8 = findViewById<ImageView>(R.id.monkeyImage1)
+        image8.setOnClickListener{
+            Toast.makeText(this,"8번 클릭 완료",Toast.LENGTH_LONG).show()
+
+            val intent = Intent(this, MonkeyActivity1::class.java)
+            startActivity(intent)
+        }
+        val image9 = findViewById<ImageView>(R.id.monkeyImage2)
+        image9.setOnClickListener{
+            Toast.makeText(this,"9번 클릭 완료",Toast.LENGTH_LONG).show()
+
+            val intent = Intent(this, MonkeyActivity2::class.java)
+            startActivity(intent)
+        }
     }
 }
-
-/*
-
-class MainActivity : ComponentActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-
-        // 화면 클릭 구현
-        val image1 = findViewById<ImageView>(R.id.mapleImage1)
-        image1.setOnClickListener{
-            Toast.makeText(this,"1번 클릭 완료",Toast.LENGTH_LONG).show()
-
-            val intent = Intent(this, MapleActivity1::class.java)
-            startActivity(intent)
-        }
-
-        val image2 = findViewById<ImageView>(R.id.mapleImage2)
-        image2.setOnClickListener{
-            Toast.makeText(this,"2번 클릭 완료",Toast.LENGTH_LONG).show()
-
-            val intent = Intent(this, MapleActivity2::class.java)
-            startActivity(intent)
-        }
-    }
-}*/

@@ -56,16 +56,15 @@
                 android:src="@drawable/maple7"
                 android:layout_width="136dp"
                 android:layout_height="136dp"/>
-<!--
         <ImageView
-                android:src="@drawable/maple8"
+                android:id="@+id/monkeyImage1"
+                android:src="@drawable/monkey1"
                 android:layout_width="136dp"
                 android:layout_height="136dp"/>
-
         <ImageView
-                android:src="@drawable/maple9"
+                android:id="@+id/monkeyImage2"
+                android:src="@drawable/monkey2"
                 android:layout_width="136dp"
                 android:layout_height="136dp"/>
--->
     </LinearLayout>
 </LinearLayout>
