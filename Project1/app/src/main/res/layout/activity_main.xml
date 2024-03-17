@@ -14,11 +14,13 @@
                 android:layout_height="136dp"/>
 
         <ImageView
+                android:id="@+id/mapleImage2"
                 android:src="@drawable/maple2"
                 android:layout_width="136dp"
                 android:layout_height="136dp"/>
 
         <ImageView
+                android:id="@+id/mapleImage3"
                 android:src="@drawable/maple3"
                 android:layout_width="136dp"
                 android:layout_height="136dp"/>
@@ -28,16 +30,19 @@
             android:layout_width="match_parent"
             android:layout_height="136dp">
         <ImageView
+                android:id="@+id/mapleImage4"
                 android:src="@drawable/maple4"
                 android:layout_width="136dp"
                 android:layout_height="136dp"/>
 
         <ImageView
+                android:id="@+id/mapleImage5"
                 android:src="@drawable/maple5"
                 android:layout_width="136dp"
                 android:layout_height="136dp"/>
 
         <ImageView
+                android:id="@+id/mapleImage6"
                 android:src="@drawable/maple6"
                 android:layout_width="136dp"
                 android:layout_height="136dp"/>
@@ -47,6 +52,7 @@
             android:layout_width="match_parent"
             android:layout_height="136dp">
         <ImageView
+                android:id="@+id/mapleImage7"
                 android:src="@drawable/maple7"
                 android:layout_width="136dp"
                 android:layout_height="136dp"/>
