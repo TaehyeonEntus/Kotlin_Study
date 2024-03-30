@@ -5,14 +5,10 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".SplashActivity">
-
+        tools:context=".ImageViewActivity">
     <ImageView
-            android:layout_margin="20dp"
-            android:src="@drawable/maple1"
+            android:id="@+id/memberImageArea"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            tools:layout_editor_absoluteX="-204dp" app:layout_constraintBottom_toBottomOf="parent">
-    </ImageView>
+            android:layout_height="match_parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
