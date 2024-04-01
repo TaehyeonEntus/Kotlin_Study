@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.app4"
+    namespace = "com.example.listviewex"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.app4"
+        applicationId = "com.example.listviewex"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
