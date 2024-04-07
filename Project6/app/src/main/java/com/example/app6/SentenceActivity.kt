@@ -1,15 +1,13 @@
 package com.example.app6
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.databinding.DataBindingUtil
-import com.example.app6.databinding.ActivityMainBinding
-class MainActivity : AppCompatActivity() {
-    private lateinit var binding : ActivityMainBinding
+import android.widget.ListView
+
+class SentenceActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_sentence)
 
         val sentenceList = mutableListOf<String>()
         sentenceList.add("검정화면에 대충 흰 글씨 쓰면 명언1")
@@ -22,11 +20,10 @@ class MainActivity : AppCompatActivity() {
         sentenceList.add("검정화면에 대충 흰 글씨 쓰면 명언8")
         sentenceList.add("검정화면에 대충 흰 글씨 쓰면 명언9")
 
-        binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
-        binding.showAllSentenceBtn.setOnClickListener {
-            val intent = Intent(this, SentenceActivity::class.java)
-            startActivity(intent)
-        }
-        binding.goodWordTextArea.setText(sentenceList.random())
+        val sentenceAdapter = ListViewAdapter(sentenceList)
+
+        val listview = findViewById<ListView>(R.id.sentenceListView)
+
+        listview.adapter = sentenceAdapter
     }
 }
